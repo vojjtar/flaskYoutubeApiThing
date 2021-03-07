@@ -1,6 +1,6 @@
 This is a simple flask api that lets you download youtube videos in mp3 or mp4 format.
 
-You can either call it with a url like this: 'http://your.IP/apiRequestDownload?url=someVideoUrl&type=video/audio
+You can either call it with a url like this: `http://your.IP/apiRequestDownload?url=someVideoUrl&type=video/audio`
 Or use the simple web interface
 
 # Requirements
