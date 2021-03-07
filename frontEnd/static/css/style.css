@@ -1,0 +1,66 @@
+body, html{
+    margin: 0;
+    padding: 0;
+
+    background-image: url("../images/bcg.gif");
+	background-position-x: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#urlInputDiv{
+    margin-top: 10rem;
+    text-align: center;
+    border: 0px solid white;
+}
+
+#urlInput{
+    color: white;
+    background-color: transparent;
+    outline: none;
+    height: 2.5rem;
+    width: 25rem;
+    border: 1.5px solid white;
+    border-radius: 12px;
+
+    transition-duration: .2s;
+}
+#urlInput:focus{
+    border: 1.5px solid transparent;
+    box-shadow: 0px 0px 0px 3px white
+}
+
+
+#audioVideoDiv{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+.audioVideoButtons{
+    color: white;
+    outline: none;
+
+    background-color: transparent;
+    border-radius: 12px;
+    border: 1.5px solid white;
+    width: 10rem;
+    height: 2.5rem;
+
+    transition-duration: .2s;
+}
+.audioVideoButtons:focus{
+    border: 1.5px solid transparent;
+    box-shadow: 0px 0px 0px 3px white
+}
+.audioVideoButtons:hover{
+    transform: scale(1.05);
+}
+
+#audioVideoSpacer{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    height: 4rem;
+    visibility: hidden;
+}
